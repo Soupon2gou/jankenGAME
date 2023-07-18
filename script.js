@@ -5,15 +5,15 @@ function play(playerChoice) {
     var result = '';
 
     if (playerChoice === computerChoice) {
-        result = "‚Ç‚ë[";
+        result = "ã©ã‚ãƒ¼";
     } else if (
         (playerChoice === 'rock' && computerChoice === 'scissors') ||
         (playerChoice === 'paper' && computerChoice === 'rock') ||
         (playerChoice === 'scissors' && computerChoice === 'paper')
     ) {
-        result = "‚©‚Á‚½`";
+        result = "ã‹ã£ãŸï½";
     } else {
-        result = "‚´``````‚±‚—‚—‚—‚—‚—‚—‚—‚—";
+        result = "ã–ï½ï½ï½ï½ï½ï½ã“wwwwwwwwwwwwww";
     }
 
     document.getElementById('result').innerHTML = result;
